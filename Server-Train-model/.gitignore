@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+firebase.json

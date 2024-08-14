@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+    background-color: #FF6347;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "car-manager",
+    "slug": "car-manager",
+    "version": "1.0.0",
+    "scheme": "car-manager",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.minnyat.carmanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.minnyat.carmanager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e55c5527-1ff0-4947-93cf-7c71e028ed16"
+      }
+    },
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+      {
+
+        "microphonePermissions": "granted",
+        "speechRecognitionPermissions": "granted"
+      }
+      ]
+    ]
+  }
+}
