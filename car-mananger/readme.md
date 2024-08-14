@@ -25,7 +25,23 @@ cd project-name # thay project-name bằng tên thư mục dự án
 npm install
 ```
 ## 4. Cấu Hình
-tạo file firebase.json trong thư mục car-mananger/App/config 
+- tạo file firebase.json trong thư mục car-mananger/App/config 
+với nội dung được tải về từ firebase console
+- truy cập vô ./car-mananger/App/services/firebase.js
+thay đổi nội dung của file này với thông tin của firebase của bạn
+```javascript
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "*.firebaseapp.com",
+  databaseURL: "https://tranducthien-efd22-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tranducthien-efd22",
+  storageBucket: "tranducthien-efd22.appspot.com",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
+};
+```
+
 ## 5. Chạy Ứng Dụng
 
 ### Sử Dụng Expo CLI
