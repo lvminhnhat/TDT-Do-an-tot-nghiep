@@ -24,8 +24,9 @@ Di chuyển vào thư mục dự án và chạy lệnh sau để cài đặt cá
 cd project-name # thay project-name bằng tên thư mục dự án
 npm install
 ```
-
-## 4. Chạy Ứng Dụng
+## 4. Cấu Hình
+tạo file firebase.json trong thư mục car-mananger/App/config 
+## 5. Chạy Ứng Dụng
 
 ### Sử Dụng Expo CLI
 ```bash

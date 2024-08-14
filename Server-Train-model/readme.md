@@ -39,8 +39,10 @@ Chạy lệnh sau để cài đặt các thư viện cần thiết:
 ```bash
 pip install -r requirements.txt
 ```
+## 4. Cấu Hình
+tạo file firebase.json trong thư mục của dự án với nội dung được tải về từ firebase console
 
-## 4. Chạy Ứng Dụng
+## 5. Chạy Ứng Dụng
 
 ```bash
 python main.py
